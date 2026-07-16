@@ -1,0 +1,54 @@
+# =============================================================================
+# OS / System Files
+# =============================================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+
+# =============================================================================
+# Node.js / Frontend (React + Vite + TypeScript)
+# =============================================================================
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Environment variables (keep your secrets out of git)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Package manager logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =============================================================================
+# .NET / Backend (C# / .NET 10)
+# =============================================================================
+bin/
+obj/
+.vs/
+TestResults/
+
+# Visual Studio user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code / JetBrains IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =============================================================================
+# Secrets / Sensitive Configuration (Optional but recommended)
+# =============================================================================
+# If you have hardcoded secrets in your dev settings, uncomment the line below:
+# appsettings.Development.json
